@@ -52,7 +52,9 @@ public partial class LoginView : UserControl
         }
     }
 
-    private void OnActionButtonClick(object? sender, RoutedEventArgs e)
+    private void 
+
+OnActionButtonClick(object? sender, RoutedEventArgs e)
     {
         string username = UsernameTextBox.Text?.Trim() ?? string.Empty;
         string password = PasswordTextBox.Text ?? string.Empty;
